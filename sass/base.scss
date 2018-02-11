@@ -1,0 +1,30 @@
+//Loading all the SCSS files
+
+/********************
+       BOOTSTRAP
+*********************/
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+/********************
+        BASE
+*********************/
+
+@import '_variables'; 
+
+/********************
+     COMPONENTS
+*********************/
+@import '_common'; 
+
+/********************
+       LAYOUTS
+*********************/
+@import '_header';
+@import '_footer'; 
+
+/********************
+       VENDORS
+*********************/
+
+@import '_icon-fonts';

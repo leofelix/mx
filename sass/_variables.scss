@@ -1,0 +1,83 @@
+/********************
+     VARIABLES
+*********************/
+
+/*Colors*/
+
+//## Gray and brand colors.
+
+$white: #ffffff;
+$black: #000000;
+$gray-darker: lighten($black, 13.5%); // #222222
+$gray-dark: lighten($black, 20%); // #333333
+$gray: lighten($black, 33.5%); // #555555
+$gray-light: lighten($black, 46.7%); // #777777
+$gray-lighter: lighten($black, 93.5%); // #EEEEEE
+$gray_d: lighten($black, 83.5%); // #D1D1D1
+$black40: #404040; // #404040
+$gray1: lighten($black, 37%); // #A1A1A1
+$gray2: #f5f5f5;
+$gray3: #909090;
+
+$brand-success: #19bd5c;
+$brand-success-dark: #11a04c;
+$brand-info: #0099CC;
+$brand-warning: #ffbb33;
+$brand-danger: #ff4444;
+
+$brand-primary: #6edc00;
+$brand-primary-dark: #5bb502;
+$brand-default: #36449c;
+$brand-default-dark: #36449c;
+$brand-secondary: #f9b042;
+$brand-secondary-dark: #efa639;
+
+//## Global styles.
+$body-bg: #F4F4F4;
+$htag-color: $gray-dark;
+$text-color: $gray-dark;
+$link-color: $brand-default;
+$link-hover-color: darken($link-color, 15%);
+$link-hover-decoration: underline;
+$light-warning: #ffeccf;
+$black_c: #cccccc;
+$black_7_5: rgba(0, 0, 0, 0.075);
+$black_9: #999999;
+$black_20: rgba(0, 0, 0, 0.2);
+ 
+
+//## Border Radius
+$border-radius-base: 4px;
+$border-radius-small: 3px;
+
+//## Padding
+$padding-big: 20px;
+$padding-base: 15px;
+$padding-small: 10px;
+
+//## Fonts
+$body-font: 'Lato', sans-serif;
+$header-font: 'Lato', sans-serif;
+$base-font-size: 14px;
+$base-font-size-small: 13px;
+$base-font-size-xs: 11px;
+$icon-fonts: 'icon-fonts'; 
+
+//## Media sizes
+$tablet: "screen and (min-width:767px)";
+$desktop: "screen and (min-width:990px)";
+$xs-mobile: "screen and (max-width:480px)";
+
+//## duc
+$lrd: #EB5757;
+$building: #9B51E0;
+$manhole: #F2994A;
+$pole: #2D9CDB;
+$csl: #E8BD3A;
+$hold: #BB6BD9;
+$handhole: #BB6BD9;
+$fibercable: #219653;
+$junctionbox: #2F80ED;
+
+//Common
+$box-shadow: 0 .25rem .75rem rgba($black, .05);

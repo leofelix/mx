@@ -1,0 +1,125 @@
+/// <reference path="base.scss" />
+.box-shadow-bottom {
+  box-shadow: $box-shadow;
+}
+
+body {
+  padding-top: 5rem;
+}
+
+//Form
+::-webkit-input-placeholder {
+  color: lighten($black, 90%);
+  font-size: 13px;
+}
+
+::-moz-placeholder {
+  color: lighten($black, 90%);
+  font-size: 13px;
+}
+
+:-ms-input-placeholder {
+  color: lighten($black, 90%);
+  font-size: 13px;
+}
+
+:-moz-placeholder {
+  color: lighten($black, 90%);
+  font-size: 13px;
+}
+
+.form-control {
+  border: {
+    radius: 0;
+    color: $white;
+  }
+}
+
+.top-search {
+  .form-control {
+    padding-left: 35px;
+    box-shadow: $box-shadow;
+  }
+  .input-group {
+    .icon.icon-location {
+      left: 50px;
+      z-index: 100;
+    }
+  }
+  .input-group-text {
+    padding: 18px;
+    font-size: 18px;
+    background-color: $brand-primary;
+    border-color: $brand-primary;
+    i {
+      color: $white;
+    }
+  }
+}
+
+.form-group {
+  position: relative;
+  i {
+    position: absolute;
+    color: lighten($black, 80%);
+    top: 30%;
+    left: 10px;
+  }
+}
+
+//Side Bar
+.right-icon-list {
+  position: fixed;
+  right: 0;
+  height: calc(100vh - 60px);
+  text-align: center;
+  top: 60px;
+  padding: 20px 10px;
+  background-color: $white;
+  ul {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+    li {
+      padding: 7px 10px;
+    }
+  }
+  span {
+    display: block;
+    position: relative;
+    top: -4px;
+    font-size: 15px;
+  }
+  i {
+    font-size: 28px;
+  }
+}
+
+$colors-list: (lrd, $lrd),
+(building, $building),
+(manhole, $manhole),
+(handhole, $handhole),
+(csl, $csl),
+(pole, $pole),
+(fibercable, $fibercable),
+(junctionbox, $junctionbox);
+@each $socialnetwork,
+$color in $colors-list {
+  .color-#{$socialnetwork} {
+    color: $color;
+  }
+}
+
+//docket
+.docket {
+  display: inline-block;
+  font-size: 18px;
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: $box-shadow;
+  position: absolute;
+}

@@ -1,0 +1,19 @@
+/// <reference path="base.scss" />
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  .navbar-nav {
+    align-items: center;
+  }
+  .dropdown-menu {
+    border-radius: 0;
+  }
+  .dropdown-toggle::after {
+    top: 3px;
+    position: relative;
+  }
+  .nav-link{
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+} 
